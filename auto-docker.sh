@@ -39,4 +39,4 @@ sudo systemctl status docker
 
 sudo sed -i '/ swap / s/^/#/' /etc/fstab
 
-echo "Selesai"
+echo "\nSetup Docker Done"
