@@ -37,7 +37,7 @@ sudo systemctl enable docker
 
 sudo systemctl status docker
 
-sudo usermod -aG docker $USER
+usermod -aG docker $USER
 
 sudo systemctl restart docker
 
