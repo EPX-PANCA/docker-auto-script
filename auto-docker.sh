@@ -39,4 +39,4 @@ sudo systemctl status docker
 
 sudo sed -i '/ swap / s/^/#/' /etc/fstab
 
-echo "\nSetup Docker Done"
+echo "Setup Docker Done"
