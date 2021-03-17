@@ -37,10 +37,6 @@ sudo systemctl enable docker
 
 sudo systemctl status docker
 
-usermod -aG docker $USER
-
-sudo systemctl restart docker
-
 sudo sed -i '/ swap / s/^/#/' /etc/fstab
 
 echo "Selesai"
