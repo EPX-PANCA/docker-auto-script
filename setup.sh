@@ -2,10 +2,10 @@
 
 #author Panca Putra Pahlawan
 
-echo "---------------------------------------------------"
+echo "-----------------------------------------------------"
 echo "|  Auto Script Docker for Kubernetes v.0.2.1-alpha  |"
-echo "| https://github.com/EPX-PANCA/docker-auto-script |"
-echo "---------------------------------------------------"
+echo "|  https://github.com/EPX-PANCA/docker-auto-script  |"
+echo "-----------------------------------------------------"
 
 while getopts u:p: flag; do
     case "${flag}" in
