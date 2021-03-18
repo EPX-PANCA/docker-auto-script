@@ -3,7 +3,7 @@
 #author Panca Putra Pahlawan
 
 echo "---------------------------------------------------"
-echo "|  Auto Script Docker for Kubernetes v.0.2-alpha  |"
+echo "|  Auto Script Docker for Kubernetes v.0.2.1-alpha  |"
 echo "| https://github.com/EPX-PANCA/docker-auto-script |"
 echo "---------------------------------------------------"
 
@@ -20,6 +20,9 @@ then
    echo "Try Again, Please Check Parameters and Arguments";
    exit 1;
 fi
+
+echo "Add Dependencies"
+sudo apt install sshpass -y 
 
 MYNAME=$(sshpass -p $SECRET ssh -o StrictHostKeyChecking=no $USER_SERVER "whoami");
 echo "Download Installer"
