@@ -22,7 +22,7 @@ then
 fi
 
 echo "Add Dependencies"
-sudo apt install sshpass -y 
+sudo apt install sshpass -y
 
 MYNAME=$(sshpass -p $SECRET ssh -o StrictHostKeyChecking=no $USER_SERVER "whoami");
 echo "Download Installer"
