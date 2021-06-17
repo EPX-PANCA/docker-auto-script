@@ -1,4 +1,4 @@
-## Docker Auto Script
+## Docker Auto Installer Script (for kubernetes).
 
 ### Shell Script
 ```sh
